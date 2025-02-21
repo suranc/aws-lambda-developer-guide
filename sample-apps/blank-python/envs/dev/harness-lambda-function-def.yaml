@@ -1,0 +1,8 @@
+# Following are the minimum set of parameters required to create an AWS Lambda Function Definition.
+# Please make sure your uploaded manifest file includes all of them.
+
+functionName: suran-python-lambda
+handler: lambda_function.lambda_handler
+role: arn:aws:iam::915632791698:role/suran-lambda-role
+runtime: python3.8
+
